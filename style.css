@@ -1,0 +1,78 @@
+body {
+    font-family: 'Orbitron', sans-serif;
+    background: #4a879b;
+}
+
+.clearfix:after {
+    display:block;
+    content:"";
+    clear:both;
+}
+
+div.head {
+    width: 100%;
+    height: 300px;
+    background: #e5e5e5;
+    border: 5px solid #017399;
+    border-style: inset;
+   /* background: linear-gradient (#e5e5e5, #ffffff);*/
+}
+
+div.head img#myImage {
+    height: 60%;
+    border-radius: 40%;
+    position: relative;
+    float: left;
+    top:20%;
+    left: 50px;
+}
+
+h1#name {
+    float:left;
+    position: relative;
+    text-align: center;
+    left: 35%;
+    top: 100px;
+    color: #4a879b;
+}
+h1#name p {
+    font-size: 13px;
+    color: rgb(2, 2, 2);
+}
+ul {
+    display: flex;
+    margin-top: 120px;
+}
+
+ul li {
+    list-style-type: none;
+    border: 2px solid black;
+    width: 30%;
+    float: left;
+}
+
+a img { 
+    width: 100%;
+    height: 100%;
+}
+h1.color {
+    color: #ffffff;
+    text-align: center;
+}
+
+ 
+
+div#icon {
+    display: flex;
+    margin-top: 120px;
+    width: 200px;
+    position: relative;
+    left: 50%;
+    margin-left: -100px;
+}
+
+div#icon a {
+    border: 2px solid white;
+    width: 50px;
+    float: left;
+}
